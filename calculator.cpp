@@ -74,7 +74,7 @@ bool divByZero(char op, double secondArg){
 		return false;
 }
 bool invalidOperator(char op)	{
-	if(op == '+' || op == '-' || op == '*' || op == '/' || op == '^' || op == '%')
+	if(op == '+' || op == '-' || op == '*' || op == '/' || op == '^' || op == '%') //this would be less bulky with a list
 		return false;
 	else
 		return true;
