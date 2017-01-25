@@ -6,6 +6,7 @@ using namespace std;
 double doOperation(char operation, double firstArg, double secondArg);
 bool divByZero(char op, double secondArg);
 bool invalidOperator(char op);
+
 int main()	{
 	char check = 'y';
 	char error = 'n';
